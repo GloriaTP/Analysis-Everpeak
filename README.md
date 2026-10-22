@@ -1,12 +1,8 @@
 # Analysis-Everpeak
-# EverPeak Retail Analysis – Sprint 6
+# EverPeak Mobility Analysis – Sprint 6
 
+The goal for this analysis is to evaluate how urban mobility relates to economic productivity in major Latin American cities. To do this, I work with real data from the TomTom Traffic Index and OECD Cities, which need to be clean, combine, and analyze to identify which cities are worth investing in for transport infrastructure.
 
-
-
-Este repositorio contiene el análisis realizado durante el Sprint 6 del caso EverPeak–SilverBasket.
-
-El dataset `everpeak_retail` incluye 2,000 órdenes de clientes con valores faltantes, sentinels, outliers y problemas de calidad diseñados para simular datos reales del retail. :contentReference[oaicite:2]{index=2}
 
 ## Executive Summary
 
@@ -77,9 +73,9 @@ O:
 2. Ejecuta las celdas en orden
 3. El notebook carga automáticamente el dataset desde `/data/` o desde un enlace público (según corresponda)
 
-## 🧠 Objetivo del análisis
+## 🧠 Objectives:
 
-- Identificar problemas de calidad de datos
-- Construir un pipeline de limpieza reproducible
-- Analizar comportamientos, distribuciones y outliers
-- Generar insights para el equipo de Estrategia e Integración de EverPeak
+1. **Identify data quality issues** in the traffic and economic datasets, such as inconsistent formats, mismatched column names and anomalous values.
+2. **Build a reproducible cleaning and integration pipeline** that standardizes data types and column names, and combines both datasets at the city–year level.
+3. **Analyze distributions and outliers** in congestion (`jams_delay`) and GDP per capita (`city_gdp_capita`) to understand how mobility and productivity behave across cities.
+4. **Generate actionable insights for EverPeak's Strategy and Integration team** on whether urban mobility relates to economic productivity and where transport infrastructure investment could matter most.
