@@ -10,7 +10,7 @@ El dataset `everpeak_retail` incluye 2,000 órdenes de clientes con valores falt
 
 ## 📂 Contenido del repositorio
 
-- `notebooks/everpeak_analysis.ipynb`
+- `S5_ladb_mobility_economy_project_student_(2).ipynb`
   → Notebook principal con limpieza, EDA, distribuciones, outliers y conclusiones.
 
 ## ▶ Cómo abrir el notebook en Google Colab
